@@ -1,0 +1,19 @@
+<nav class="navbar fixed-top">
+  <div class="container">
+    <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggleItems" aria-controls="navbarToggleItems" aria-expanded="false" aria-label="Toggle navigation">
+      <img class="brand-img" src="/assets/images/logo_v3.gif" alt="FiftyPercent">
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggleItems">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+        {% for item in site.data.navigation %}
+         <li class="nav-item">
+          <a class="nav-link" href="{{ item.link }}" {% if page.url == item.link %}style="text-decoration: underline;
+              text-decoration-position: under;color: gray;"{% endif %}>{{ item.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div> <!--container-->
+</nav>

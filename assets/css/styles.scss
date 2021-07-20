@@ -1,0 +1,51 @@
+---
+---
+@import "main";
+@import "effects";
+
+.brand-img {
+  width: 40%;
+}
+
+.brand-img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(5px 5px 7px blue);
+  -webkit-filter: drop-shadow(5px 5px 7px blue);
+}
+
+.content-box {
+  width: 100%;
+  margin-top: 70px;
+  background-color: red;
+  text-align: center;
+}
+
+.post-box {
+  position: relative;
+  background-color: red;
+}
+
+.page-box {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.background-img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: none;
+  overflow: hidden;
+}
+
+.icon-img {
+  position: absolute;
+  z-index: 999;
+}
+
+@media screen and (max-width: 600px) {
+  .brand-img{
+    width: 70%;
+  }
+}
