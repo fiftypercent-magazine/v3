@@ -1,3 +1,9 @@
+.color-burn {mix-blend-mode: color-burn;}
+.color-dodge:hover {mix-blend-mode: color-dodge;}
+.luminosity:hover {mix-blend-mode: luminosity;}
+.multiply:hover {mix-blend-mode: multiply;}
+.hue:hover {mix-blend-mode: hue;}
+
 .spin-box {
   animation: 3s ease-out spin;
   animation-iteration-count: infinite;
