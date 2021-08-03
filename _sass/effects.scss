@@ -1,8 +1,18 @@
-.color-burn {mix-blend-mode: color-burn;}
-.color-dodge:hover {mix-blend-mode: color-dodge;}
-.luminosity:hover {mix-blend-mode: luminosity;}
+.normal:hover {mix-blend-mode: normal;}
 .multiply:hover {mix-blend-mode: multiply;}
+.screen:hover {mix-blend-mode: screen;}
+.overlay {mix-blend-mode: overlay;}
+.darken:hover {mix-blend-mode: darken;}
+.lighten:hover {mix-blend-mode: lighten;}
+.color-dodge {mix-blend-mode: color-dodge;}
+.color-burn:hover {mix-blend-mode: color-burn;}
+.difference:hover {mix-blend-mode: difference;}
+.exclusion:hover {mix-blend-mode: exclusion;}
 .hue:hover {mix-blend-mode: hue;}
+.saturation:hover {mix-blend-mode: saturation;}
+.color:hover {mix-blend-mode: color;}
+.luminosity:hover {mix-blend-mode: luminosity;}
+
 
 .spin-box {
   animation: 3s ease-out spin;
